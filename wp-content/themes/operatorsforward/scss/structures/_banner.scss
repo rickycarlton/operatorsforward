@@ -1,0 +1,73 @@
+// *************************************
+//
+//   Banner Images
+//   -> .banner-- ...
+//
+// *************************************
+
+.banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&--home {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-home.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+		@media screen and (min-width: $g-m) {
+			padding: $b-space-xxl 0;
+		}
+	}
+
+	// About Us page
+
+	&--about {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-about.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+		@media screen and (min-width: $g-m) {
+			padding: $b-space-xxl 0;
+		}
+	}
+
+	&--office {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-office.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	// Careers page
+
+	&--careers {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-careers.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+		@media screen and (min-width: $g-m) {
+			padding: $b-space-xxl 0;
+		}
+	}
+
+	&--job--a {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--a.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--job--b {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--b.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--job--c {
+		@extend .banner;
+		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--c.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+}

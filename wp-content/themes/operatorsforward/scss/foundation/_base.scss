@@ -1,0 +1,107 @@
+// *************************************
+//
+//   Base
+//   -> Tag-level settings
+//
+// *************************************
+
+html {
+  background: $c-background;
+  color: $c-text;
+  font-family: $b-fontFamily;
+  font-size: $b-fontSize;
+  line-height: $b-lineHeight;
+}
+
+body {
+  font-size: 100%;
+  margin: 0;
+}
+
+// -------------------------------------
+//   Block Content
+// -------------------------------------
+
+ul, p {
+  margin-bottom: $b-space;
+  margin-top: 0;
+  letter-spacing: 0.01em;
+}
+
+li {
+  margin-bottom: $b-space-s;
+  margin-top: 0;
+}
+
+p {
+  font-family: $b-fontFamily;
+  font-weight: 400;
+}
+
+// ----- Headings ----- //
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-family: $b-fontFamily-heading;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: .025em;
+  margin-bottom: $b-space;
+  margin-top: 0;
+}
+
+h1, .h1 {
+  font-size: $b-fontSize-h1;
+}
+
+h2, .h2 {
+  font-size: $b-fontSize-h2;
+}
+
+h3, .h3 {
+  font-size: $b-fontSize-h3;
+  font-weight: 400;
+}
+
+h4, .h4 {
+  font-size: $b-fontSize-h4;
+  font-weight: 400;
+}
+
+// -------------------------------------
+//   Inline Content
+// -------------------------------------
+
+// ----- Links ----- //
+
+a {
+  color: $c-highlight;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: darken($c-highlight, 20%);
+  }
+
+  &.tci {
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+
+  &.tcb {
+    &:hover,
+    &:focus {
+      color: lighten($blue--shade, 30%);
+    }
+  }
+}
+
+// ----- Images ----- //
+
+img {
+  height: auto;
+  max-width: 100%;
+}

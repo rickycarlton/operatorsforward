@@ -1,0 +1,119 @@
+// *************************************
+//
+//   Buttons
+//   -> .btn, .btn-- ...
+//
+// *************************************
+
+.btn {
+    color: #333;
+    display: inline-block;
+    letter-spacing: 0.04em;
+    border-radius: 30px;
+    height: 50px;
+    line-height: 50px;
+    zoom: 1;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $b-fontFamily;
+    letter-spacing: 0.05em;
+    font-size: $b-fontSize;
+    text-align: center;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    @media screen and (min-width: $g-m) {
+        width: auto;
+        padding: 0 $b-space-l;
+    }
+
+    &--wide {
+        width: 100%;
+        height: auto;
+        @media screen and (min-width: $g-m) {
+            max-width: 250px;
+        }
+    }
+
+    &--tall {
+        line-height: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    &--nav {
+        line-height: 44px;
+        height: 44px;
+        margin: 15px 0 15px 15px;
+    }
+
+    &--full {
+        width: 100%;
+        height: auto;
+    }
+
+    &--outline {
+        background-color: transparent;
+        border: 3px solid white;
+        color: white;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        &:hover {
+            color: white;
+            background-color: $blue;
+            border: 3px solid $blue;
+            text-decoration: none;
+        }
+        &--dark {
+            background-color: transparent;
+            border: 3px solid $slate;
+            color: $slate;
+            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+            &:hover {
+                color: white;
+                background-color: $red;
+                border: 3px solid $red;
+                text-decoration: none;
+            }
+        }
+    }
+
+    // colors
+
+    &--blue {
+        background-color: $blue--shade;
+        color: white;
+        &:hover {
+            background-color: shade($blue--shade,10%);
+            color: white;
+        }
+    }
+    &--red {
+        background-color: $red;
+        color: white;
+        &:hover {
+            background-color: saturate($red,15%);
+            color: white;
+        }
+    }
+    &--yellow {
+        background-color: $yellow;
+        color: #333;
+        &:hover {
+            background-color: saturate($yellow,15%);
+            color: #333;
+        }
+    }
+    &--slate {
+        background-color: $slate;
+        color: white;
+        &:hover {
+            background-color: darken($slate,15%);
+            color: white;
+        }
+    }
+}
+    

@@ -1,0 +1,21 @@
+// *************************************
+//
+//   Footer
+//   -> Footer styles
+//	 Location: footer.php
+//
+// *************************************
+
+.footer__logo {
+	background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-footer.png');
+	height: 100px;
+	width: 294px;
+	margin: 0 auto;
+}
+
+.footer__link {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none; 
+	border: none;
+}

@@ -1,0 +1,69 @@
+// *************************************
+//
+//   Icons
+//   -> via Icomoon
+//	 Icomoon files in config.scss
+//
+// *************************************
+
+.icn {
+    font-size: 32px;
+    text-align: center;
+    vertical-align: top;
+
+    &--s {
+        font-size: $b-fontSize;
+    }
+
+    &--m {
+        font-size: 36px;
+    }
+
+    &--l {
+	    font-size: 48px;
+    }
+
+    &--xl {
+	    font-size: 96px;
+    }
+
+    &--circle {
+    	-moz-box-shadow: #ccc 0 0 0 3px;
+    	-webkit-box-shadow: #ccc 0 0 0 3px;
+    	box-shadow: #ccc 0 0 0 3px;
+        border-radius: 50%;
+    	height: 100px;
+    	width: 100px;
+    	line-height: 100px;
+
+        &--blue {
+            @extend .icn--circle;
+            -moz-box-shadow: $blue 0 0 0 3px;
+            -webkit-box-shadow: $blue 0 0 0 3px;
+            box-shadow: $blue 0 0 0 3px;
+        }
+    }
+}
+
+.icn-v-align {
+    position: absolute;
+    top: 50%;
+    &.left {
+        left: 0;
+    }
+    &.right {
+        right: 0;
+    }
+    &--l {
+        @extend .icn-v-align;
+        width: 48px;
+        height: 48px;
+        margin-top: -24px;
+    }
+    &--xl {
+        @extend .icn-v-align;
+        width: 96px;
+        height: 96px;
+        margin-top: -48px;
+    }
+}

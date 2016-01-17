@@ -1,0 +1,25 @@
+// *************************************
+//
+//   Lists
+//   -> Individual style containers
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .block-icon-list
+//   / ...
+//
+// *************************************
+
+.icn-list {
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+	list-style: none;
+	font-size: $b-fontSize-s;
+	span {
+		margin: 0 20px 0 -35px;
+		font-size: $b-fontSize-s;
+	}
+}
