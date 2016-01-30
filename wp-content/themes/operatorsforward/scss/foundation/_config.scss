@@ -82,6 +82,7 @@ $b-lineHeight: 2;
 $b-maxWidth-s: em(700px);
 $b-maxWidth: em(1024px);
 $b-maxWidth-l: em(1200px);
+$b-maxWidth-xl: em(1400px);
 $b-space: 20px;
 $b-space-xs: $b-space * 0.25;
 $b-space-s: $b-space * 0.5;
@@ -120,11 +121,11 @@ $g-selector: if($g-silent, unquote("%"), unquote("."));
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?-tt2nq2');
-	src:url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?#iefix-tt2nq2') format('embedded-opentype'),
-		url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.ttf?-tt2nq2') format('truetype'),
-		url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.woff?-tt2nq2') format('woff'),
-		url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.svg?-tt2nq2#icomoon') format('svg');
+	src:url('/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?-tt2nq2');
+	src:url('/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?#iefix-tt2nq2') format('embedded-opentype'),
+		url('/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.ttf?-tt2nq2') format('truetype'),
+		url('/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.woff?-tt2nq2') format('woff'),
+		url('/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.svg?-tt2nq2#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

@@ -378,8 +378,8 @@ th {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?-tt2nq2");
-  src: url("/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?#iefix-tt2nq2") format("embedded-opentype"), url("/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.ttf?-tt2nq2") format("truetype"), url("/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.woff?-tt2nq2") format("woff"), url("/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.svg?-tt2nq2#icomoon") format("svg");
+  src: url("/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?-tt2nq2");
+  src: url("/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?#iefix-tt2nq2") format("embedded-opentype"), url("/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.ttf?-tt2nq2") format("truetype"), url("/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.woff?-tt2nq2") format("woff"), url("/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.svg?-tt2nq2#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -601,10 +601,16 @@ h4, .h4 {
   margin-top: 0; }
 
 h1, .h1 {
-  font-size: 250%; }
+  font-size: 175%; }
+  @media screen and (min-width: 50em) {
+    h1, .h1 {
+      font-size: 250%; } }
 
 h2, .h2 {
-  font-size: 200%; }
+  font-size: 150%; }
+  @media screen and (min-width: 50em) {
+    h2, .h2 {
+      font-size: 200%; } }
 
 h3, .h3 {
   font-size: 150%;
@@ -1244,7 +1250,7 @@ img {
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1); } }
     @media screen and (min-width: 50em) {
       .navBar.bg-color .navBar__logo {
-        background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-main.png"); } }
+        background-image: url("/wp-content/themes/operatorsforward/img/of-logo-main.png"); } }
 
 .navBar__mobileNav {
   display: none; }
@@ -1269,14 +1275,14 @@ img {
   text-align: center; }
   .navBar__mobileLinks a {
     color: white;
-    font-size: 150%;
+    font-size: 115%;
     margin-bottom: 10px;
     display: block;
     width: 100%; }
 
 .navBar__mobileLinks--title {
   width: 50%;
-  margin: 80px auto 40px auto;
+  margin: 40px auto 20px auto;
   color: #737476;
   font-family: "Open Sans", sans-serif;
   border-bottom: 2px solid #737476; }
@@ -1284,7 +1290,7 @@ img {
 .navBar__cell {
   margin-left: auto;
   margin-right: auto;
-  max-width: 75em;
+  max-width: 87.5em;
   position: relative; }
   @media screen and (max-width: 49.9375em) {
     .navBar__cell {
@@ -1295,7 +1301,7 @@ img {
     position: relative; } }
 
 .navBar__logo {
-  background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-mobile.png");
+  background-image: url("/wp-content/themes/operatorsforward/img/of-logo-mobile.png");
   background-repeat: no-repeat;
   display: block;
   height: 30px;
@@ -1304,7 +1310,7 @@ img {
   z-index: 201; }
   @media screen and (min-width: 50em) {
     .navBar__logo {
-      background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-white.png");
+      background-image: url("/wp-content/themes/operatorsforward/img/of-logo-white.png");
       left: 15px;
       margin: 10px 0;
       height: 56px;
@@ -1316,19 +1322,22 @@ img {
   @media screen and (min-width: 50em) {
     .navBar__rightLinks {
       display: block;
-      width: 50%;
+      width: 75%;
       position: absolute;
       right: 0;
       top: 0; }
       .navBar__rightLinks a {
         font-family: "Open Sans", sans-serif;
-        font-size: 90%;
+        font-size: 75%;
         color: white;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        padding: 0 20px;
+        padding: 0 15px;
         display: inline-block;
         float: right; } }
+  @media screen and (min-width: 900px) {
+    .navBar__rightLinks a {
+      font-size: 80%; } }
 
 .hamburger-menu {
   line-height: 50px;
@@ -1385,44 +1394,90 @@ img {
   transform: rotate(-45deg);
   transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); }
 
-.banner, .banner--home, .banner--about, .banner--office, .banner--careers, .banner--job--a, .banner--job--b, .banner--job--c {
+.banner, .banner--home, .banner--about, .banner--office, .banner--careers, .banner--companies, .banner--operators, .banner--job--a, .banner--job--b, .banner--job--c, .banner--food--1, .banner--food--2, .banner--food--3, .banner--food--4, .banner--food--5, .banner--food--6, .banner--food--7, .banner--food--8 {
   background-size: cover;
   background-repeat: no-repeat; }
   .banner--home {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-home.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner-home.jpg");
     background-position: top center;
     background-attachment: fixed; }
     @media screen and (min-width: 50em) {
       .banner--home {
         padding: 120px 0; } }
   .banner--about {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-about.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner-about.jpg");
     background-position: top center;
     background-attachment: fixed; }
     @media screen and (min-width: 50em) {
       .banner--about {
         padding: 120px 0; } }
   .banner--office {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-office.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner-office.jpg");
     background-position: top center;
     background-attachment: fixed; }
   .banner--careers {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-careers.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner-careers.jpg");
     background-position: top center;
     background-attachment: fixed; }
     @media screen and (min-width: 50em) {
       .banner--careers {
         padding: 120px 0; } }
+  .banner--companies {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner-companies.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+    @media screen and (min-width: 50em) {
+      .banner--companies {
+        padding: 120px 0; } }
+  .banner--operators {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner-operators.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+    @media screen and (min-width: 50em) {
+      .banner--operators {
+        padding: 120px 0; } }
   .banner--job--a {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--a.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--job--a.jpg");
     background-position: top center;
     background-attachment: fixed; }
   .banner--job--b {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--b.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--job--b.jpg");
     background-position: top center;
     background-attachment: fixed; }
   .banner--job--c {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--c.jpg");
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--job--c.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--1 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--1.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--2 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--2.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--3 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--3.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--4 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--4.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--5 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--5.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--6 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--6.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--7 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--7.jpg");
+    background-position: top center;
+    background-attachment: fixed; }
+  .banner--food--8 {
+    background-image: url("/wp-content/themes/operatorsforward/img/banner/banner--food--8.jpg");
     background-position: top center;
     background-attachment: fixed; }
 
@@ -1430,21 +1485,37 @@ img {
   background-repeat: repeat;
   background-size: contain; }
   .p--a {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/pattern/binding_light.png"); }
+    background-image: url("/wp-content/themes/operatorsforward/img/pattern/binding_light.png"); }
   .p--b {
-    background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/pattern/binding_dark.png"); }
+    background-image: url("/wp-content/themes/operatorsforward/img/pattern/binding_dark.png"); }
+
+.home__header {
+  font-size: 200%;
+  line-height: 1.3; }
+  @media screen and (min-width: 50em) {
+    .home__header {
+      font-size: 400%; } }
 
 .footer__logo {
-  background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-footer.png");
+  background-image: url("/wp-content/themes/operatorsforward/img/of-logo-footer.png");
   height: 100px;
   width: 294px;
   margin: 0 auto; }
+
+.footer__link__container {
+  text-align: center; }
 
 .footer__link {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  border: none; }
+  border: none;
+  font-size: 90%;
+  display: block; }
+  @media screen and (min-width: 50em) {
+    .footer__link {
+      display: inline-block;
+      padding: 0 20px; } }
 
 @media screen and (max-width: 49.9375em) {
   .no-mobile {
@@ -1745,7 +1816,7 @@ img {
     .mtmm {
       margin-top: 20px; } }
   @media screen and (max-width: 49.9375em) {
-    .mtmmx {
+    .mtmmx, .mtm--max {
       margin-top: 20px; } }
 
 .mtl {

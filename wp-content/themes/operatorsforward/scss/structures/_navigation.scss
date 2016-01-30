@@ -32,7 +32,7 @@
 
 		.navBar__logo {
 			@media screen and (min-width: $g-m) {
-				background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-main.png');
+				background-image: url('/wp-content/themes/operatorsforward/img/of-logo-main.png');
 			}
 		}
 	}
@@ -63,7 +63,7 @@
 	text-align: center;
 	a {
 		color: white;
-		font-size: $b-fontSize-xl;
+		font-size: $b-fontSize-l;
 		margin-bottom: $b-space-s;
 		display: block;
 		width: 100%;
@@ -72,7 +72,7 @@
 
 .navBar__mobileLinks--title {
 	width: 50%;
-	margin: $b-space-xl auto $b-space-l auto;
+	margin: $b-space-l auto $b-space auto;
 	color: $slate--light;
 	font-family: $b-fontFamily;
 	border-bottom: 2px solid $slate--light;
@@ -81,7 +81,7 @@
 .navBar__cell {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: $b-maxWidth-l;
+	max-width: $b-maxWidth-xl;
 	position: relative;
 	@media screen and (max-width: $g-m-max) {
 		padding: 0 $b-space-s;
@@ -95,7 +95,7 @@
 }
 
 .navBar__logo {
-	background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-mobile.png');
+	background-image: url('/wp-content/themes/operatorsforward/img/of-logo-mobile.png');
 	background-repeat: no-repeat;
 	display: block;
 	height: 30px;
@@ -104,7 +104,7 @@
 	z-index: 201;
 
 	@media screen and (min-width: $g-m) {
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-white.png');
+		background-image: url('/wp-content/themes/operatorsforward/img/of-logo-white.png');
 		left: 15px;
 		margin: 10px 0;
 		height: 56px;
@@ -117,20 +117,25 @@
 	display: none;
 	@media screen and (min-width: $g-m) {
 		display: block;
-		width: 50%;
+		width: 75%;
 		position: absolute;
 		right: 0;
 		top: 0;
 
 		a {
 			font-family: $b-fontFamily;
-			font-size: $b-fontSize-s;
+			font-size: 75%;
 			color: white;
 			text-transform: uppercase;
 			letter-spacing: 0.05em;
-			padding: 0 $b-space;
+			padding: 0 15px;
 			display: inline-block;
 			float: right;
+		}
+	}
+	@media screen and (min-width: 900px) {
+		a {
+			font-size: 80%;
 		}
 	}
 }

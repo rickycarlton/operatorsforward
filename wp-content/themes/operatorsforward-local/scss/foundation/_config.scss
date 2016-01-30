@@ -1,0 +1,318 @@
+// *************************************
+//
+//   Config
+//   -> Fonts, Variables
+//
+// *************************************
+
+// -------------------------------------
+//   @font-face
+// -------------------------------------
+
+// ----- Open Sans ----- //
+
+// +font-face('OpenSans', 'OpenSans')
+// +font-face('OpenSans', 'OpenSansBold', bold)
+// +font-face('OpenSans', 'OpenSansItalic', normal, italic)
+
+// -------------------------------------
+//   Colors
+// -------------------------------------
+
+// ----- Palette ----- //
+
+$blue: #89ACAC;
+$yellow: #CEC32C;
+$red: #B44626;
+
+$slate: #373A3A;
+$slate--light: #737476;
+$blue--shade: darken(saturate($blue,10%),10%);
+$blue--light: #D6EAE9;
+$grey--warm: #736759;
+$grey--warm--dark: #2B2A29;
+
+// ----- Base ----- //
+
+$c-background: white;
+$c-background-invert: white;
+$c-highlight: saturate($blue, 10%);
+$c-border: lighten($blue, 30%);
+$c-subdue: lighten($blue, 40%);
+$c-text-invert: white;
+$c-text: #444444;
+
+// ----- Components ----- //
+
+// ...
+
+// ----- Structures ----- //
+
+// ...
+
+// -------------------------------------
+//   Base
+// -------------------------------------
+
+// ----- Borders & Box Shadow ----- //
+
+$b-borderRadius: 3px;
+$b-borderStyle: solid;
+$b-borderWidth: 2px;
+$b-border: $b-borderWidth $b-borderStyle $c-border;
+$b-boxShadow: 0 2px 0 rgba($c-text, 0.25);
+
+// ----- Typography ----- //
+
+$b-fontFamily-heading: 'Merriweather', serif;
+$b-fontFamily: 'Open Sans', sans-serif;
+$b-fontSize: 16px;
+$b-fontSize-xs: 75%;
+$b-fontSize-s: 90%;
+$b-fontSize-l: 115%;
+$b-fontSize-xl: 150%;
+$b-fontSize-h1: 250%;
+$b-fontSize-h2: 200%;
+$b-fontSize-h3: 150%;
+$b-fontSize-h4: 125%;
+$b-lineHeight: 2;
+
+// ----- Sizing ----- //
+
+$b-maxWidth-s: em(700px);
+$b-maxWidth: em(1024px);
+$b-maxWidth-l: em(1200px);
+$b-maxWidth-xl: em(1400px);
+$b-space: 20px;
+$b-space-xs: $b-space * 0.25;
+$b-space-s: $b-space * 0.5;
+$b-space-l: $b-space * 2;
+$b-space-xl: $b-space * 4;
+$b-space-xxl: $b-space * 6;
+$b-space-xxxl: $b-space * 8;
+
+// -------------------------------------
+//   Components
+// -------------------------------------
+
+// ----- Grid ----- //
+
+// Breakpoints
+
+$g-s: em(480px);
+$g-m-max: em(799px);
+$g-m: em(800px);
+$g-l: em(1024px);
+
+// Settings
+
+$g-columns: 12;
+$g-defaults: "s" $g-s, "m" $g-m, "l" $g-l;
+$g-gutter: $b-space;
+$g-silent: false;
+
+// Selector
+
+$g-selector: if($g-silent, unquote("%"), unquote("."));
+
+// -------------------------------------
+//   Icomoon
+// -------------------------------------
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?-tt2nq2');
+	src:url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.eot?#iefix-tt2nq2') format('embedded-opentype'),
+		url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.ttf?-tt2nq2') format('truetype'),
+		url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.woff?-tt2nq2') format('woff'),
+		url('/operatorsforward/wp-content/themes/operatorsforward/fonts/icomoon/fonts/icomoon.svg?-tt2nq2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+	content: "\e638";
+}
+.icon-boss:before {
+	content: "\e600";
+}
+.icon-restaurant-ext:before {
+	content: "\e601";
+}
+.icon-businessman:before {
+	content: "\e602";
+}
+.icon-exchange:before {
+	content: "\e603";
+}
+.icon-calendars:before {
+	content: "\e604";
+}
+.icon-table:before {
+	content: "\e605";
+}
+.icon-sale:before {
+	content: "\e606";
+}
+.icon-posting:before {
+	content: "\e607";
+}
+.icon-search-doc:before {
+	content: "\e608";
+}
+.icon-group:before {
+	content: "\e609";
+}
+.icon-group-circle:before {
+	content: "\e60a";
+}
+.icon-assistant:before {
+	content: "\e60b";
+}
+.icon-info-post:before {
+	content: "\e60c";
+}
+.icon-lightbulb-head:before {
+	content: "\e60d";
+}
+.icon-checklist:before {
+	content: "\e60e";
+}
+.icon-person-search:before {
+	content: "\e60f";
+}
+.icon-desk-1:before {
+	content: "\e610";
+}
+.icon-management:before {
+	content: "\e611";
+}
+.icon-plate:before {
+	content: "\e612";
+}
+.icon-sales-up:before {
+	content: "\e613";
+}
+.icon-savings:before {
+	content: "\e614";
+}
+.icon-suitcase-search:before {
+	content: "\e615";
+}
+.icon-chat:before {
+	content: "\e616";
+}
+.icon-user-man:before {
+	content: "\e617";
+}
+.icon-worker:before {
+	content: "\e618";
+}
+.icon-desk:before {
+	content: "\e619";
+}
+.icon-boss-name-tag:before {
+	content: "\e61a";
+}
+.icon-cf-arrow:before {
+	content: "\e61b";
+}
+.icon-home:before {
+	content: "\e61c";
+}
+.icon-location:before {
+	content: "\e61d";
+}
+.icon-user:before {
+	content: "\e61e";
+}
+.icon-users:before {
+	content: "\e61f";
+}
+.icon-user-plus:before {
+	content: "\e620";
+}
+.icon-user-minus:before {
+	content: "\e621";
+}
+.icon-user-check:before {
+	content: "\e622";
+}
+.icon-user-tie:before {
+	content: "\e623";
+}
+.icon-heart:before {
+	content: "\e624";
+}
+.icon-plus:before {
+	content: "\e625";
+}
+.icon-minus:before {
+	content: "\e626";
+}
+.icon-close:before {
+	content: "\e627";
+}
+.icon-checkmark:before {
+	content: "\e628";
+}
+.icon-caret:before {
+	content: "\e629";
+}
+.icon-arrow-up-left:before {
+	content: "\e62a";
+}
+.icon-arrow-up:before {
+	content: "\e62b";
+}
+.icon-arrow-up-right:before {
+	content: "\e62c";
+}
+.icon-arrow-right:before {
+	content: "\e62d";
+}
+.icon-arrow-down-right:before {
+	content: "\e62e";
+}
+.icon-arrow-down:before {
+	content: "\e62f";
+}
+.icon-arrow-down-left:before {
+	content: "\e630";
+}
+.icon-arrow-left:before {
+	content: "\e631";
+}
+.icon-share:before {
+	content: "\e632";
+}
+.icon-mail:before {
+	content: "\e633";
+}
+.icon-google-plus:before {
+	content: "\e634";
+}
+.icon-facebook:before {
+	content: "\e635";
+}
+.icon-twitter:before {
+	content: "\e636";
+}
+.icon-linkedin:before {
+	content: "\e637";
+}
+

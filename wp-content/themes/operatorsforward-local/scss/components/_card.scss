@@ -1,0 +1,74 @@
+// *************************************
+//
+//   Card
+//   -> Individual style containers
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .card
+//   / ...
+//
+// *************************************
+
+.card {
+  background: $c-background-invert;
+  box-shadow: $b-boxShadow;
+  position: relative;
+}
+
+.card-img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+
+	&.left {
+		left: 0;
+	}
+
+	&.right {
+		right: 0;
+	}
+}
+
+.card-btn {
+	margin-top: $b-space;
+	@media screen and (min-width: $g-m) {
+		margin-top: 0;
+		position: absolute;
+		top: 50%;
+		right: 40px;
+		margin-top: -25px;
+	}
+}
+
+.card__img-v-align {
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	&.right {
+		right: 40px;
+		left: auto;
+	}
+	&--s {
+		@extend .card__img-v-align;
+		width: 50px;
+		height: 50px;
+		margin-top: -25px;
+	}
+	&--m {
+		@extend .card__img-v-align;
+		width: 80px;
+		height: 80px;
+		margin-top: -40px;
+	}
+	&--l {
+		@extend .card__img-v-align;
+		width: 200px;
+		height: 200px;
+		margin-top: -100px;
+	}
+}

@@ -11,7 +11,7 @@
 
 	&--home {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-home.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner-home.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 		@media screen and (min-width: $g-m) {
@@ -23,7 +23,7 @@
 
 	&--about {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-about.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner-about.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 		@media screen and (min-width: $g-m) {
@@ -33,7 +33,7 @@
 
 	&--office {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-office.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner-office.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 	}
@@ -42,7 +42,31 @@
 
 	&--careers {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner-careers.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner-careers.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+		@media screen and (min-width: $g-m) {
+			padding: $b-space-xxl 0;
+		}
+	}
+
+	// Companies page
+
+	&--companies {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner-companies.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+		@media screen and (min-width: $g-m) {
+			padding: $b-space-xxl 0;
+		}
+	}
+
+	// Operators page
+
+	&--operators {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner-operators.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 		@media screen and (min-width: $g-m) {
@@ -52,21 +76,79 @@
 
 	&--job--a {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--a.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--job--a.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 	}
 
 	&--job--b {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--b.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--job--b.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 	}
 
 	&--job--c {
 		@extend .banner;
-		background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/banner/banner--job--c.jpg');
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--job--c.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	// food
+
+	&--food--1 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--1.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--2 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--2.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--3 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--3.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--4 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--4.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--5 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--5.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--6 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--6.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--7 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--7.jpg');
+		background-position: top center;
+		background-attachment: fixed;
+	}
+
+	&--food--8 {
+		@extend .banner;
+		background-image: url('/wp-content/themes/operatorsforward/img/banner/banner--food--8.jpg');
 		background-position: top center;
 		background-attachment: fixed;
 	}
