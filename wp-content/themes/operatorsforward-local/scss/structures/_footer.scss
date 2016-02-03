@@ -9,7 +9,7 @@
 .footer__logo {
 	background-image: url('/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-footer.png');
 	height: 100px;
-	width: 294px;
+	width: 220px;
 	margin: 0 auto;
 }
 
@@ -24,8 +24,14 @@
 	border: none;
 	font-size: 90%;
 	display: block;
+	transition: (0.2s all);
+	-webkit-transition: (0.2s all);
+	-moz-transition: (0.2s all);
 	@media screen and (min-width: $g-m) {
 		display: inline-block;
 		padding: 0 $b-space;
+		&:hover {
+			color: $grey--light;
+		}
 	}
 }

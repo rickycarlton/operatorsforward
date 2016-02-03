@@ -20,7 +20,7 @@
 						<a href="/operators/" class="footer__link">Operators</a>
 						<a href="/opportunities/" class="footer__link">Opportunities</a>
 						<a href="/about/" class="footer__link">About</a>
-						<a href="mailto:info@operatorsforward.com" class="footer__link">Contact</a>
+						<a href="mailto:operatorsforward@gmail.com" class="footer__link">Contact</a>
 					</div>
 				</div>
 				<div class="mtl clear g-b--5of8 mhc">
@@ -41,7 +41,7 @@
 						</div>
 					</div>
 					<div class="g-b mtl">
-						<span class="tc-slate-light tss db">© Copyright 2016 Careers Forward | All Rights Reserved</span>
+						<span class="tc-slate-light tss db">© Copyright 2016 Operators Forward | All Rights Reserved</span>
 					</div>
 				</div>
 			</div>

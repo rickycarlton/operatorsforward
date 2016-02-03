@@ -41,7 +41,7 @@
 						</div>
 					</div>
 					<div class="g-b mtl">
-						<span class="tc-slate-light tss db">© Copyright 2016 Careers Forward | All Rights Reserved</span>
+						<span class="tc-slate-light tss db">© Copyright 2016 Operators Forward | All Rights Reserved</span>
 					</div>
 				</div>
 			</div>

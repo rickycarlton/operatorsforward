@@ -3,10 +3,10 @@
 <?php get_header(); ?>
 
 <div data-bg="banner--home" class="row row--grey--warm--dark">
-	<div class="cell well--xxxl tac">
+	<div class="cell well--xxl tac">
 		<div class="g clear ptm pbm">
 			<div class="g-b--center g-b--8of10 g-b--m--7of10">
-				<h1 class="tci home__header">Opportunities for Amazing People</h1>
+				<h1 class="tci home__header">Career Opportunities for Amazing People</h1>
 				<div class="mtxl">
 					<button id="scrollTo--home" class="btn btn--blue">See Current Listings</button>
 				</div>
