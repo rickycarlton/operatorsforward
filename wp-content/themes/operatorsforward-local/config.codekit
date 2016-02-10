@@ -286,17 +286,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/banner\/banner-home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 86204,
-		"inputAbbreviatedPath": "\/img\/banner\/banner-home.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner-home.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/banner\/banner-office.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -315,6 +304,50 @@
 		"initialSize": 138923,
 		"inputAbbreviatedPath": "\/img\/banner\/banner-operators.jpg",
 		"outputAbbreviatedPath": "\/img\/banner\/banner-operators.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/of-logo-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9427,
+		"inputAbbreviatedPath": "\/img\/of-logo-footer.png",
+		"outputAbbreviatedPath": "\/img\/of-logo-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/of-logo-main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7882,
+		"inputAbbreviatedPath": "\/img\/of-logo-main.png",
+		"outputAbbreviatedPath": "\/img\/of-logo-main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/of-logo-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4924,
+		"inputAbbreviatedPath": "\/img\/of-logo-mobile.png",
+		"outputAbbreviatedPath": "\/img\/of-logo-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/of-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5379,
+		"inputAbbreviatedPath": "\/img\/of-logo-white.png",
+		"outputAbbreviatedPath": "\/img\/of-logo-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

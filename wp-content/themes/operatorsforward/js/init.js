@@ -91,7 +91,7 @@ $(document).ready(function() {
 	    })
 	});
 
-	$("#scrollTo--home").click(function() {
+	$("#scrollTo--listings").click(function() {
 	    $('html, body').animate({
 	        scrollTop: $("#listings").offset().top
 	    }, 800);

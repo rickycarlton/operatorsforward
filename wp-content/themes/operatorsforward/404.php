@@ -9,7 +9,7 @@
 	<div class="cell well--xl tac">
 		<h2 class="tac">Try returning to the homepage and navigating elsewhere.</h2>
 		<div class="mtm">
-			<a href="/opportunities/" class="btn btn--outline--dark">Back to Home</a>
+			<a href="/" class="btn btn--outline--dark">Back to Home</a>
 		</div>
 	</div>
 </div>

@@ -26,12 +26,16 @@
 				<div class="navBar__logo"></div>
 			</a>
 			<div class="navBar__rightLinks">
-				<a class="btn btn--outline btn--nav" href="mailto:info@operatorsforward.com">Contact Us</a>
-				<!-- <a href="mailto:info@operatorsforward.com">Contact Us</a> -->
+				<a class="btn btn--outline btn--nav" href="mailto:operatorsforward@gmail.com">Contact Us</a>
 				<a href="/operatorsforward/about/">About Us</a>
 				<a href="/operatorsforward/opportunities/">Opportunities</a>
-				<a href="/operatorsforward/operators/">Operators</a>
 				<a href="/operatorsforward/companies/">Companies</a>
+				<a href="/operatorsforward/operators/">Operators</a>
+				<?php
+				if ( ! is_page_template( 'page-templates/home.php' ) ) {
+		        ?>
+				<a href="/">Home</a>
+				<?php } ?>
 			</div>
 		</div>
 	</div>
@@ -40,10 +44,10 @@
 	<div class="navBar__mobileLinks">
 		<div class="navBar__mobileLinks--title">Navigation</div>
 		<a href="operatorsforward/">Home</a>
-		<a href="/operatorsforward/companies/">Companies</a>
 		<a href="/operatorsforward/operators/">Operators</a>
+		<a href="/operatorsforward/companies/">Companies</a>
 		<a href="/operatorsforward/opportunities/">Opportunities</a>
 		<a href="operatorsforward/about/">About Us</a>
-		<a href="mailto:info@operatorsforward.com">Contact Us</a>
+		<a href="mailto:operatorsforward@gmail.com">Contact Us</a>
 	</div>
 </div>

@@ -4,11 +4,24 @@
 
 <div data-bg="banner--home" class="row row--grey--warm--dark">
 	<div class="cell well--xxl tac">
-		<div class="g clear ptm pbm">
+		<div class="g clear">
 			<div class="g-b--center g-b--8of10 g-b--m--7of10">
 				<h1 class="tci home__header">Career Opportunities for Amazing People</h1>
-				<div class="mtxl">
-					<button id="scrollTo--home" class="btn btn--blue">See Current Listings</button>
+			</div>
+		</div>
+		<div class="g clear mtxlm">
+			<div class="g-b g-b--m--1of2">
+				<div class="home__twoby brdr">
+					<h4>Submit Your Resumé</h4>
+					<p>Thinking about a move if it is the right opportunity? Let us look for you and make the connection when the fit, timing and opportunity are right!</p>
+					<a href="/operators/" class="btn btn--blue">Resumé Database</a>
+				</div>
+			</div>
+			<div class="g-b g-b--m--1of2">
+				<div class="home__twoby">
+					<h4>Browse Current Openings</h4>
+					<p>Are you ready right now to find you next amazing opportunity? These listings are current open active positions that are company and role specific. Find your culture fit!</p>
+					<a href="/opportunities/" class="btn btn--blue">Active Listings</a>
 				</div>
 			</div>
 		</div>
@@ -18,24 +31,24 @@
 	<div class="cell well--xl">
 		<div class="g">
 			<div class="g-b--center g-b--m--7of10 tac">
-				<h2 class="mbf">Providing Opportunities Twofold:<span class="db twsb">Companies &amp; Operators</span></h2>
+				<h2 class="mbf">Conencting Talent with <span class="db twsb">Opportunities</span></h2>
 				<div class="divider"><span class="divider__icon icon-cf-arrow"></span></div>
-				<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+				<p>OperatorsForward is a collective group of professionals with work experience in restaurant and retail work environments who have held operational roles in past duties and responsibilities.  As OperatorsForward, we now recruit “right fit” talent to support nationally recognized restaurant and hospitality brands who through people, deliver on their mission, goals and objectives while creating opportunities for personal growth.</p>
 			</div>
 		</div>
 	</div>
 </div>
 <div data-bg="banner--food--2" class="row row--grey--warm--dark">
 	<div class="cell well--xl clear">
-		<h2 class="tac tci">What Does Operators Forward Offer?</h2>
+		<h2 class="tac tci">What Does OperatorsForward Offer?</h2>
 		<div class="g mtl matchHeight-parent">
 			<div class="g-b g-b--m--1of2">
 				<div class="card palm tac matchHeight">
 					<div class="db">
 						<span class="icn icn--xl tcr icon-group"></span>
 					</div>
-					<h2 class="mtm dib tsl twb">Finding Companies the Right Talent</h2>
-					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p>
+					<h2 class="mtm dib tsl twb">Finding “Right Fit” Talent for Companies</h2>
+					<p>OperatorsForward works directly with you as an extension of your team’s recruiting resources through our Recruiting Partners. We develop long term relationship with the companies we support. Our Recruiting Partners, or RP’s for short, act as brand ambassadors for your company, sourcing and placing “right fit” talent in leadership and management positions.</p>
 					<div class="mtm">
 						<a class="btn btn--outline--dark" href="/companies/">Hire Talent</a>
 					</div>
@@ -46,8 +59,8 @@
 					<div class="db">
 						<span class="icn icn--xl tcr icon-table"></span>
 					</div>
-					<h2 class="mtm dib tsl twb">Helping Operators Locate the Right Job</h2>
-					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p>
+					<h2 class="mtm dib tsl twb">Helping Operators Find “Right Fit” Jobs</h2>
+					<p>OperatorsForward is a recruiting and placement solution for individuals seeking leadership and management positions within the food, beverage and hospitality industries. We work closely with the companies that we support and place candidates based on fit  to company culture and  values. The majority of our clients are established brands with holdings at a national level.</p>
 					<div class="mtm">
 						<a class="btn btn--outline--dark" href="/opportunities/">Get Hired</a>
 					</div>
@@ -56,120 +69,9 @@
 		</div>
 	</div>
 </div>
-<div id="listings" class="row row--blue--light">
-	<div class="cell--l well--xl">
-		<h2 class="tac">Current Opportunities</h2>
-		<div class="g clear mtl">
-			<div class="g-b g-b--m--1of2">
-				<div class="card db palm">
-					<div class="g">
-						<div class="g-b g-b--m--2of3">
-							<h4><a href="#">General Manager</a></h4>
-							<div class="mts twsb">Employer Name</div>
-							<div class="mts tss"><strong>Location:</strong> City Name, State</div>
-						</div>
-						<div class="g-b g-b--m--1of3">
-							<div class="card-btn">
-								<a class="btn btn--red" href="#">Apply</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="g-b g-b--m--1of2">
-				<div class="card db palm mtmmx">
-					<div class="g">
-						<div class="g-b g-b--m--2of3">
-							<h4><a href="#">Assistant General Manager</a></h4>
-							<div class="mts twsb">Employer Name</div>
-							<div class="mts tss"><strong>Location:</strong> City Name, State</div>
-						</div>
-						<div class="g-b g-b--m--1of3">
-							<div class="card-btn">
-								<a class="btn btn--red" href="#">Apply</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="g clear mtl">
-			<div class="g-b g-b--m--1of2">
-				<div class="card db palm">
-					<div class="g">
-						<div class="g-b g-b--m--2of3">
-							<h4><a href="#">Ipsum Pharetra Porta</a></h4>
-							<div class="mts twsb">Employer Name</div>
-							<div class="mts tss"><strong>Location:</strong> City Name, State</div>
-						</div>
-						<div class="g-b g-b--m--1of3">
-							<div class="card-btn">
-								<a class="btn btn--red" href="#">Apply</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="g-b g-b--m--1of2">
-				<div class="card db palm mtmmx">
-					<div class="g">
-						<div class="g-b g-b--m--2of3">
-							<h4><a href="#">Commodo Risus</a></h4>
-							<div class="mts twsb">Employer Name</div>
-							<div class="mts tss"><strong>Location:</strong> City Name, State</div>
-						</div>
-						<div class="g-b g-b--m--1of3">
-							<div class="card-btn">
-								<a class="btn btn--red" href="#">Apply</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="g clear mtl">
-			<div class="g-b g-b--m--1of2">
-				<div class="card db palm">
-					<div class="g">
-						<div class="g-b g-b--m--2of3">
-							<h4><a href="#">Risus Vestibulum</a></h4>
-							<div class="mts twsb">Employer Name</div>
-							<div class="mts tss"><strong>Location:</strong> City Name, State</div>
-						</div>
-						<div class="g-b g-b--m--1of3">
-							<div class="card-btn">
-								<a class="btn btn--red" href="#">Apply</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="g-b g-b--m--1of2">
-				<div class="card db palm mtmmx">
-					<div class="g">
-						<div class="g-b g-b--m--2of3">
-							<h4><a href="#">Ornare Ullamcorper Porta</a></h4>
-							<div class="mts twsb">Employer Name</div>
-							<div class="mts tss"><strong>Location:</strong> City Name, State</div>
-						</div>
-						<div class="g-b g-b--m--1of3">
-							<div class="card-btn">
-								<a class="btn btn--red" href="#">Apply</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="mtl clear tac">
-			<a class="btn btn--wide btn--blue" href="/opportunities/">See All</a>
-		</div>
-	</div>
-</div>
-<div data-bg="banner--food--5" class="row row--blue--dark">
+<div class="row row--blue--dark">
 	<div class="cell well--xl tac">
 		<div class="tci h1 ffh">Attract. Develop. Engage. Retain.</div>
-		<p class="tci">Tired of continuously filling the same positions over and over from the same talent pool?</p>
 		<div class="mtm">
 			<a href="mailto:operatorsforward@gmail.com" class="btn btn--outline">Contact Us Now</a>
 		</div>

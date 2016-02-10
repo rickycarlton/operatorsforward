@@ -26,22 +26,19 @@
 				<div class="mtl clear g-b--5of8 mhc">
 					<div class="g-b--center g-b--m--1of3 mtm">
 						<div class="g">
-							<div class="g-b g-b--1of4">
+							<div class="g-b g-b--1of3">
 								<span class="icn tci icon-facebook"></span>
 							</div>
-							<div class="g-b g-b--1of4">
-								<span class="icn tci icon-google-plus"></span>
-							</div>
-							<div class="g-b g-b--1of4">
+							<div class="g-b g-b--1of3">
 								<span class="icn tci icon-twitter"></span>
 							</div>
-							<div class="g-b g-b--1of4">
+							<div class="g-b g-b--1of3">
 								<span class="icn tci icon-linkedin"></span>
 							</div>
 						</div>
 					</div>
 					<div class="g-b mtl">
-						<span class="tc-slate-light tss db">© Copyright 2016 Operators Forward | All Rights Reserved</span>
+						<span class="tc-slate-light tss db">© Copyright 2016 OperatorsForward | All Rights Reserved</span>
 					</div>
 				</div>
 			</div>
