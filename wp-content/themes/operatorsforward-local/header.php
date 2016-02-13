@@ -26,7 +26,7 @@
 				<div class="navBar__logo"></div>
 			</a>
 			<div class="navBar__rightLinks">
-				<a class="btn btn--outline btn--nav" href="mailto:operatorsforward@gmail.com">Contact Us</a>
+				<a class="btn btn--outline btn--nav" href="/about/#contact">Contact Us</a>
 				<a href="/operatorsforward/about/">About Us</a>
 				<a href="/operatorsforward/opportunities/">Opportunities</a>
 				<a href="/operatorsforward/companies/">Companies</a>
@@ -48,6 +48,6 @@
 		<a href="/operatorsforward/companies/">Companies</a>
 		<a href="/operatorsforward/opportunities/">Opportunities</a>
 		<a href="operatorsforward/about/">About Us</a>
-		<a href="mailto:operatorsforward@gmail.com">Contact Us</a>
+		<a href="/about/#contact">Contact Us</a>
 	</div>
 </div>

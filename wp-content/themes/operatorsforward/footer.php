@@ -1,10 +1,10 @@
 
-<script type="text/javascript" src="/operatorsforward/wp-content/themes/operatorsforward-local/js/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="/operatorsforward/wp-content/themes/operatorsforward-local/js/plugins/jquery.matchHeight-min.js"></script>
-<script type="text/javascript" src="/operatorsforward/wp-content/themes/operatorsforward-local/js/plugins/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="/operatorsforward/wp-content/themes/operatorsforward-local/js/plugins/respond/respond.js"></script>
-<script type="text/javascript" src="/operatorsforward/wp-content/themes/operatorsforward-local/js/plugins/waypoint/jquery.waypoints.min.js"></script>
-<script type="text/javascript" src="/operatorsforward/wp-content/themes/operatorsforward-local/js/init.js"></script>
+<script type="text/javascript" src="/wp-content/themes/operatorsforward/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/operatorsforward/js/plugins/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/operatorsforward/js/plugins/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/operatorsforward/js/plugins/respond/respond.js"></script>
+<script type="text/javascript" src="/wp-content/themes/operatorsforward/js/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/operatorsforward/js/init.js"></script>
 
 <?php wp_footer(); ?>
 
@@ -20,20 +20,26 @@
 						<a href="/operators/" class="footer__link">Operators</a>
 						<a href="/opportunities/" class="footer__link">Opportunities</a>
 						<a href="/about/" class="footer__link">About</a>
-						<a href="mailto:info@operatorsforward.com" class="footer__link">Contact</a>
+						<a href="/about/#contact" class="footer__link">Contact</a>
 					</div>
 				</div>
 				<div class="mtl clear g-b--5of8 mhc">
 					<div class="g-b--center g-b--m--1of3 mtm">
 						<div class="g">
 							<div class="g-b g-b--1of3">
-								<span class="icn tci icon-facebook"></span>
+								<a href="https://www.facebook.com/operatorsforward/" target="_blank" class="social-icon">
+									<span class="icn icon-facebook"></span>
+								</a>
 							</div>
 							<div class="g-b g-b--1of3">
-								<span class="icn tci icon-twitter"></span>
+								<a href="https://twitter.com/opsforward" target="_blank" class="social-icon">
+									<span class="icn icon-twitter"></span>
+								</a>
 							</div>
 							<div class="g-b g-b--1of3">
-								<span class="icn tci icon-linkedin"></span>
+								<a href="/" target="_blank" class="social-icon">
+									<span class="icn icon-linkedin"></span>
+								</a>
 							</div>
 						</div>
 					</div>

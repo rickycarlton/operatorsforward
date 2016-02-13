@@ -1,0 +1,93 @@
+// *************************************
+//
+//   Form
+//	 Contact Us form
+//   -- utilizing Contact Form 7 wp plugin
+//
+// *************************************
+
+// contactform
+
+.contactform__container {
+	width: 100%;
+	margin: 0;
+}
+
+.contactform__item {
+	margin: $b-space 0;
+
+	.contactform__input {
+		width: 90%;
+		margin: 0 auto;
+
+		.wpcf7-not-valid-tip {
+			margin: 0 auto;
+		}
+	}
+
+	// Contact Fields
+	input {
+		width: 90%;
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+		padding: 0 10px;
+		border: 1px solid #aaa;
+	}
+
+	// Your Message
+	textarea {
+		width: 90%;
+		font-size: 16px;
+		padding: 10px;
+		border: 1px solid #aaa;
+	}
+
+	// Submit Button
+	input[type="submit"] {
+		display: inline-block;
+		letter-spacing: 0.04em;
+		border-radius: 30px;
+		height: 50px;
+		zoom: 1;
+		width: 100%;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: $b-fontFamily;
+		letter-spacing: 0.05em;
+		font-size: $b-fontSize;
+		text-align: center;
+		outline: none;
+		overflow: hidden;
+		cursor: pointer;
+		border: none;
+		@media screen and (min-width: $g-m) {
+		    width: auto;
+		    padding: 0 $b-space-l;
+		}
+
+		background-color: $blue--shade;
+		color: white;
+		&:hover {
+		    background-color: shade($blue--shade,10%);
+		    color: white;
+		}
+	}
+}
+
+.contactform__text {
+	color: $grey--warm;
+	text-align: left;
+	width: 90%;
+	margin: 0 auto $b-space-s auto;
+	@media screen and (min-width: $g-m) {
+		width: 83%;
+	}
+
+	.contactform__req {
+		font-size: 80%;
+		color: #aaa;
+		padding-left: 10px;
+		text-transform: uppercase;
+	}
+}

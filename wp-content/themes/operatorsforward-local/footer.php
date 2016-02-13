@@ -27,13 +27,19 @@
 					<div class="g-b--center g-b--m--1of3 mtm">
 						<div class="g">
 							<div class="g-b g-b--1of3">
-								<span class="icn tci icon-facebook"></span>
+								<a href="https://www.facebook.com/operatorsforward/" target="_blank" class="social-icon">
+									<span class="icn icon-facebook"></span>
+								</a>
 							</div>
 							<div class="g-b g-b--1of3">
-								<span class="icn tci icon-twitter"></span>
+								<a href="https://twitter.com/opsforward" target="_blank" class="social-icon">
+									<span class="icn icon-twitter"></span>
+								</a>
 							</div>
 							<div class="g-b g-b--1of3">
-								<span class="icn tci icon-linkedin"></span>
+								<a href="/" target="_blank" class="social-icon">
+									<span class="icn icon-linkedin"></span>
+								</a>
 							</div>
 						</div>
 					</div>

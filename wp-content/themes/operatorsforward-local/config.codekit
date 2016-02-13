@@ -56,26 +56,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fonts\/icomoon\/demo-files\/demo.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/icomoon\/demo-files\/demo.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/fonts\/icomoon\/demo-files\/demo.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/icomoon\/demo-files\/demo.js",
-		"outputAbbreviatedPath": "\/fonts\/icomoon\/demo-files\/min\/demo-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/fonts\/icomoon\/demo.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -131,17 +111,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/img\/banner\/banner--food--1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 299177,
-		"inputAbbreviatedPath": "\/img\/banner\/banner--food--1.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner--food--1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/banner\/banner--food--2.jpg": {
 		"fileType": 16384,
@@ -249,61 +218,6 @@
 		"initialSize": 76721,
 		"inputAbbreviatedPath": "\/img\/banner\/banner--job--c.jpg",
 		"outputAbbreviatedPath": "\/img\/banner\/banner--job--c.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/banner\/banner-about.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 78138,
-		"inputAbbreviatedPath": "\/img\/banner\/banner-about.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner-about.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/banner\/banner-careers.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 87523,
-		"inputAbbreviatedPath": "\/img\/banner\/banner-careers.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner-careers.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/banner\/banner-companies.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 246633,
-		"inputAbbreviatedPath": "\/img\/banner\/banner-companies.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner-companies.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/banner\/banner-office.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 76936,
-		"inputAbbreviatedPath": "\/img\/banner\/banner-office.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner-office.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/banner\/banner-operators.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 138923,
-		"inputAbbreviatedPath": "\/img\/banner\/banner-operators.jpg",
-		"outputAbbreviatedPath": "\/img\/banner\/banner-operators.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

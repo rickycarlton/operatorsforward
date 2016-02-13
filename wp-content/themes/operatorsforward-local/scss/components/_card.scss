@@ -34,6 +34,13 @@
 	}
 }
 
+.card--top {
+  background: $c-background-invert;
+  box-shadow: $b-boxShadow;
+  position: relative;
+  border-top: 10px solid $blue;
+}
+
 .card-btn {
 	margin-top: $b-space;
 	@media screen and (min-width: $g-m) {

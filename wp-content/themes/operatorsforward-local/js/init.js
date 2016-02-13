@@ -91,6 +91,10 @@ $(document).ready(function() {
 	    })
 	});
 
+	//----------------------------------------------------------
+    //  Scroll To
+    //----------------------------------------------------------
+
 	$("#scrollTo--listings").click(function() {
 	    $('html, body').animate({
 	        scrollTop: $("#listings").offset().top
