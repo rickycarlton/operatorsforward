@@ -1301,6 +1301,11 @@ img {
     padding-left: 10px;
     text-transform: uppercase; }
 
+.g-recaptcha {
+  width: 100%; }
+  .g-recaptcha div {
+    margin: 0 auto; }
+
 .navBar {
   display: block;
   overflow: hidden;

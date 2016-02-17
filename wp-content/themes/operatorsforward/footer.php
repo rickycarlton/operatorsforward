@@ -37,7 +37,7 @@
 								</a>
 							</div>
 							<div class="g-b g-b--1of3">
-								<a href="/" target="_blank" class="social-icon">
+								<a href="https://www.linkedin.com/company/operatorsforward" target="_blank" class="social-icon">
 									<span class="icn icon-linkedin"></span>
 								</a>
 							</div>
