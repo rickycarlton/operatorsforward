@@ -27,7 +27,7 @@
 				<div class="navBar__logo"></div>
 			</a>
 			<div class="navBar__rightLinks">
-				<a class="btn btn--outline btn--nav" href="/about/#contact">Contact Us</a>
+				<a class="btn btn--outline btn--nav" href="/about/#contact">Contact</a>
 				<a href="/about/">About Us</a>
 				<a href="/opportunities/">Opportunities</a>
 				<a href="/companies/">Companies</a>
@@ -49,6 +49,6 @@
 		<a href="/companies/">Companies</a>
 		<a href="/opportunities/">Opportunities</a>
 		<a href="/about/">About Us</a>
-		<a href="/about/#contact">Contact Us</a>
+		<a href="/about/#contact">Contact</a>
 	</div>
 </div>

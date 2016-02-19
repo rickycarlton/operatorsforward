@@ -1329,6 +1329,9 @@ img {
         -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1); } }
+    @media screen and (min-width: 50em) {
+      .navBar.bg-color .navBar__logo {
+        background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-main.png"); } }
 
 .navBar__mobileNav {
   display: none; }
@@ -1599,7 +1602,7 @@ img {
 
 .footer__logo {
   background-image: url("/operatorsforward/wp-content/themes/operatorsforward/img/of-logo-footer.png");
-  height: 100px;
+  height: 76px;
   width: 220px;
   margin: 0 auto; }
 
